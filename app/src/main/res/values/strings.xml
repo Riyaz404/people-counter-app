@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">people counter</string>
+    <string name="press_here">press here</string>
+    <string name="_0">0</string>
+    <string name="people_counter">people counter</string>
+    <color name="bg">#FBDF07</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:paddingBottom="70dp"
+        android:text="@string/people_counter"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="39sp"
+        android:textStyle="bold"
+        android:paddingBottom="40dp"
+        android:gravity="center"
+        android:text="@string/_0" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+       android:paddingTop="2sp"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="2dp"
+        android:layout_weight="2"
+        android:background="@color/a"
+        android:text="@string/press_here"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+</LinearLayout>
